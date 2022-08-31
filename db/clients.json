@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "cImage":"images/clients/1.png"
+    },
+    {
+        "id": 2,
+        "cImage":"images/clients/2.png"
+    },
+    {
+        "id": 3,
+        "cImage":"images/clients/3.png"
+    },
+    {
+        "id": 4,
+        "cImage":"images/clients/4.png"
+    },
+    {
+        "id": 5,
+        "cImage":"images/clients/5.png"
+    },
+    {
+        "id": 6,
+        "cImage":"images/clients/6.png"
+    }
+]
