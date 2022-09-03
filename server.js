@@ -7,7 +7,7 @@ const expressLayout = require("express-ejs-layouts");
 
 //Environtment Init
 dotenv.config();
-const PORT = process.env.SERVER_PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
 // Init Express
 const app = express();

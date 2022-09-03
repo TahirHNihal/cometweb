@@ -33,7 +33,7 @@ const shopPage = (req, res) => {
 
 //Single Product Page
 const singleProductPage = (req, res) => {
-  res.status(200).sendFile(path.join(__dirname, "../public/shop-single.html"));
+  res.render("shop-single")
 };
 
 //Contact Page

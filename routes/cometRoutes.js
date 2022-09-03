@@ -15,7 +15,7 @@ const router = express.Router();
 router.get("/", homePage);
 router.get("/about", aboutPage);
 router.get("/shop", shopPage);
-router.get("/single-product", singleProductPage);
+router.get("/single-product/:id", singleProductPage);
 router.get("/contact", ContactPage);
 
 //Export Modules

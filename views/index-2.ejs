@@ -496,7 +496,7 @@
               class="flexslider nav-outside"
             >
               <ul class="slides">
-                <% testimonials.forEach(testimonial => { %>
+                <% testimonials.reverse().forEach(testimonial => { %>
                 <li>
                   <blockquote>
                     <p>"<%= testimonial.review %>"</p>
@@ -521,7 +521,7 @@
         <div class="section-content">
           <div class="row">
             <div class="col-md-8 col-md-offset-2">
-              <% blogs.forEach(blog => { %>
+              <% blogs.reverse().forEach(blog => { %>
               <div class="blog-post">
                 <div class="post-body">
                   <h3 class="serif"><a href="#"><%= blog.title %></a></h3>
